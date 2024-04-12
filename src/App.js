@@ -4,11 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Route, Routes} from "react-router";
 import {Homepage} from "./Homepage/Homepage";
 import {Navbar} from "./Navbar/Navbar";
+import photoshoot_bg_blur from "./Pictures/photoshoot_bg_blur.JPG";
 
 function App() {
   return (
     <div className="">
         <Navbar/>
+        <img className={"hw-cover-img img-fluid"} src={photoshoot_bg_blur}/>
         <Routes>
             <Route path={'/hi'} element={<Homepage/>}/>
         </Routes>
