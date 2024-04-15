@@ -1,9 +1,12 @@
 .hw-nav-link{
     text-decoration: none;
     padding:2px 12px 2px 12px;
-    border-radius:45%;
+    /*border-radius:45%;*/
     color:rgba(255, 255, 255, 0.8);
 
+}
+.hw-nav-link:hover {
+    text-shadow: 0 0 3px mintcream;
 }
 
 .hw-navbar{
@@ -12,6 +15,7 @@
     margin:0;
     padding:0px 0px 0px 0px;
     background-color: rgba(22, 22, 23, 0.8);
+    max-height:48px;
 }
 
 .hw-navbar-wrapper{
@@ -22,6 +26,32 @@
 
 .hw-navicon{
     color:rgba(255, 255, 255, 0.8);
-    font-size:20px;
-    padding:5px;
+    font-size:27px;
+    padding:0px;
+}
+.hw-navicon:hover{
+    filter:drop-shadow(0 0 3px mintcream);
+}
+
+#navDropdownBtn:hover{
+    filter:drop-shadow(0 0 3px mintcream);
+    color:rgba(255, 255, 255, 0.8) !important;
+}
+
+.hw-navbar-dropdown-btn{
+    color:rgba(255, 255, 255, 0.8);
+    background-color: transparent;
+    border:none;
+    font-size:27px;
+    padding:0px;
+}
+
+.hw-navbar-dropdown-menu{
+    background-color: rgba(22, 22, 23, 0.8);
+}
+
+.hw-navbar-dropdown-menu .dropdown-item:hover{
+    color:rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    background-color: transparent;
 }
