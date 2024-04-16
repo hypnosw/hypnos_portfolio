@@ -3,8 +3,11 @@ import "./Homepage.css"
 
 export const Homepage = ()=>{
     return(
-        <div>
-          <img className={"hw-cover-img img-fluid"} src={photoshoot_bg_blur}/>
+        <div className={""}>
+          <div className={"hw-img-container"}>
+            <img className={"hw-cover-img"} alt="homePageCoverImage" src={photoshoot_bg_blur}/>
+          </div>
+          <h1>Contents</h1>
         </div>
     )
 }

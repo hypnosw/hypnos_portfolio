@@ -1,5 +1,31 @@
+
+.hw-img-container {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    max-height: 700px;
+    overflow: hidden;
+}
+.hw-img-container .hw-cover-img{
+    max-height:100%;
+    max-width: 100%;
+    /*object-fit: cover;*/
+}
 @media (max-width: 588px) {
-    .hw-cover-img{
+    .hw-img-container .hw-cover-img{
         margin-top:30px;
     }
 }
+@media (min-width: 1700px) {
+    .hw-img-container .hw-cover-img{
+        /*position:absolute;*/
+        /*bottom:20%;*/
+        z-index: -2147483648;
+        object-fit: contain;
+        object-position: center center;
+
+    }
+}
+
+
+
