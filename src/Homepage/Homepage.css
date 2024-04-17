@@ -3,9 +3,33 @@
     display: flex; /* Use flexbox */
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
-    max-height: 700px;
+    max-height: 800px;
     overflow: hidden;
+    position:relative;
 }
+
+.hw-img-container .hw-cover-names-container{
+    position:absolute;
+    left:5vw;
+    top:12vw;
+}
+.hw-img-container .hw-cover-fname{
+    position:relative;
+    font-size:10vw;
+    letter-spacing: 9px;
+    color: rgb(151, 151, 153);
+    text-shadow: 2px 2px 3px rgb(151, 151, 153);
+}
+.hw-img-container .hw-cover-lname{
+    position:relative;
+    left:21vw;
+    bottom:7vw;
+    font-size:10vw;
+    letter-spacing: 9px;
+    color: rgb(151, 151, 153);
+    text-shadow: 2px 2px 3px rgb(151, 151, 153);
+}
+
 .hw-img-container .hw-cover-img{
     max-height:100%;
     max-width: 100%;
@@ -18,8 +42,7 @@
 }
 @media (min-width: 1700px) {
     .hw-img-container .hw-cover-img{
-        /*position:absolute;*/
-        /*bottom:20%;*/
+
         z-index: -2147483648;
         object-fit: contain;
         object-position: center center;
