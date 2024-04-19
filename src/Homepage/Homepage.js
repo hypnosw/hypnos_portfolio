@@ -9,8 +9,14 @@ export const Homepage = ()=>{
             <img className={"hw-cover-img"} alt="homePageCoverImage"
                  src={photoshoot_bg_blur}/>
             <div className={"hw-cover-names-container"}>
-              <p className={"hw-cover-fname roboto-black-italic"}>Hypnos</p>
-              <p className={"hw-cover-lname roboto-black-italic"}>Wu</p>
+              <p className={"hw-cover-helloworld roboto-bold-italic"}>Hello World!</p>
+              <p className={"hw-cover-name roboto-bold-italic"}>
+                I'm <span>Hypnos</span>
+              </p>
+              <p className={"hw-cover-intro roboto-bold-italic"}>
+                A
+                <span> Fullstack Developer</span>
+              </p>
             </div>
           </div>
           <h1>Contents</h1>

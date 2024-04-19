@@ -5,7 +5,6 @@
     justify-content: center; /* Center horizontally */
     max-height: 800px;
     overflow: hidden;
-    position:relative;
 }
 
 .hw-img-container .hw-cover-names-container{
@@ -13,26 +12,39 @@
     left:5vw;
     top:12vw;
 }
-.hw-img-container .hw-cover-fname{
-    position:relative;
-    font-size:10vw;
-    letter-spacing: 9px;
-    color: rgb(151, 151, 153);
-    text-shadow: 2px 2px 3px rgb(151, 151, 153);
+
+.hw-cover-names-container .hw-cover-helloworld{
+    font-size:4vw;
+    letter-spacing: 7px;
+    text-shadow: 1px 1px 1px rgb(151, 151, 153);
+    margin:0px;
 }
-.hw-img-container .hw-cover-lname{
-    position:relative;
-    left:21vw;
-    bottom:7vw;
-    font-size:10vw;
-    letter-spacing: 9px;
-    color: rgb(151, 151, 153);
-    text-shadow: 2px 2px 3px rgb(151, 151, 153);
+
+.hw-cover-names-container .hw-cover-name{
+    font-size:7vw;
+    margin:0px;
+    letter-spacing: 7px;
+    text-shadow: 1px 1px 3px rgb(151, 151, 153);
+}
+
+.hw-cover-names-container .hw-cover-name span{
+    color: #bd452e;
+    text-shadow: 1px 1px 3px #bd452e;
+
+}
+
+.hw-cover-names-container .hw-cover-intro{
+    font-size:3vw;
+    text-shadow: 1px 1px 1px;
+}
+.hw-cover-names-container .hw-cover-intro span{
+    text-decoration:2px #bd452e underline ;
 }
 
 .hw-img-container .hw-cover-img{
     max-height:100%;
     max-width: 100%;
+    position:relative;
     /*object-fit: cover;*/
 }
 @media (max-width: 588px) {
@@ -42,11 +54,16 @@
 }
 @media (min-width: 1700px) {
     .hw-img-container .hw-cover-img{
-
         z-index: -2147483648;
         object-fit: contain;
         object-position: center center;
 
+    }
+}
+
+@media (max-width: 588px){
+    .hw-cover-names-container{
+        margin-top:30px;
     }
 }
 
