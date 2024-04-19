@@ -1,10 +1,9 @@
 import "./Navbar.css";
-import {Link, useLocation, useParams} from "react-router-dom";
+import {Link} from "react-router-dom";
 import {FaGithub, FaLinkedin} from "react-icons/fa";
 import {CiMenuBurger} from "react-icons/ci";
 
 export const Navbar = ()=>{
-  const { pathname } = useLocation();
 
   return(
       <nav className={"hw-navbar-wrapper"}>

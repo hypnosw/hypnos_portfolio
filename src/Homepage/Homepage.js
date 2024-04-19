@@ -17,9 +17,11 @@ export const Homepage = ()=>{
                 A
                 <span> Fullstack Developer</span>
               </p>
+              <a className={"roboto-bold"} href={"../Hypnos_Wu.pdf"} download={"Hypnos_Wu_Resume.pdf"}>
+                Click to Download My Resume
+              </a>
             </div>
           </div>
-          <h1>Contents</h1>
         </div>
     )
 }

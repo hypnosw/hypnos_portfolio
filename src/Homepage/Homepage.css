@@ -29,8 +29,13 @@
 
 .hw-cover-names-container .hw-cover-name span{
     color: #bd452e;
-    text-shadow: 1px 1px 3px #bd452e;
+    text-shadow: 1px 1px 3px white;
+}
 
+.hw-cover-names-container a{
+    font-size:1.5vw;
+    text-shadow: 1px 1px 1px rgb(151, 151, 153);
+    text-decoration: underline;
 }
 
 .hw-cover-names-container .hw-cover-intro{
@@ -38,7 +43,7 @@
     text-shadow: 1px 1px 1px;
 }
 .hw-cover-names-container .hw-cover-intro span{
-    text-decoration:2px #bd452e underline ;
+    /*text-decoration:2px #bd452e underline ;*/
 }
 
 .hw-img-container .hw-cover-img{
@@ -66,6 +71,20 @@
         margin-top:30px;
     }
 }
+
+@media (min-width: 2200px){
+    .hw-cover-names-container{
+        margin-top:-100px;
+    }
+}
+
+@media (min-width: 2400px){
+    .hw-cover-names-container{
+        margin-top:-200px;
+    }
+}
+
+
 
 
 

@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Route, Routes} from "react-router";
 import {Homepage} from "./Homepage/Homepage";
 import {Navbar} from "./Navbar/Navbar";
-import {useEffect} from "react";
 
 function App() {
 
